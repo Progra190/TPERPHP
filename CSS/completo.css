@@ -1,5 +1,150 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+* {
+  font-family: verdana;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+header {
+  color: rgb(135,206,250);
+  background-color: rgb(154,205,50);
+  padding: 15px;
+}
+
+nav {
+  background-color: #CD5C5C;
+  text-align: center;
+}
+
+nav ol {
+  list-style: none;
+}
+
+nav ol li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+nav ol li a {
+  padding: 15px;
+  display: inline-block;
+  color: rgb(112,128,144);
+  text-decoration: none;
+  /*reomve o sublinhado do link*/
+  border-bottom: #0B0B61 solid 3px;
+}
+
+nav ol li a:hover {
+  color: #DCDCDC;
+  /*hover, é quando o mouse estiver sobre*/
+  background-color: #DBA901;
+  /*borda abaixo*/
+}
+
+footer {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+}
+
+#principal {
+  text-align: center;
+}
+
+figure {
+  background-color: #000;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+figure:hover {
+  opacity: 1;
+}
+
+figcaption a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#principal h1 {
+  color: #09f;
+  padding: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+}
+
+table {
+  margin: 20px auto;
+  width: 80%;
+}
+
+th {
+  background-color: #09f;
+  color: #fff;
+  padding: 10px;
+}
+
+.listra {
+  background-color: #9cf;
+}
+
+td {
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000;
+}
+
+tr:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+form {
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.grupo {
+  padding: 10px;
+  /*border: 1px solid #000;*/
+}
+
+.grupo input,
+select {
+  width: 100%;
+  height: 25px;
+  border: 4px solid #5F4C0B;
+  border-radius: 10px;
+}
+
+.grupo input:focus,
+select:focus {
+  border: 6px solid #0B2161;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+  border: 4px solid #0B6121;
+  border-radius: 10px;
+}
+
+.genero {
+  width: 15px !important;
+  height: 15px !important;
+  /* Comando !important é para sobrepor um comando no CSS quando há conflito entre dois ou mais estilos*/
+}
